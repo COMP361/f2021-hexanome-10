@@ -1,6 +1,5 @@
 /* This class contains all info relevant to a single Player */
 
-import org.minueto.image.MinuetoImage;
 import java.util.ArrayList;
 
 public class Player {
