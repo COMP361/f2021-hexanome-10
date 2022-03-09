@@ -73,8 +73,32 @@ public class Player {
     public String getName() {
         return aServerUser.getName();
     }
+    public Town getTown(){
+        return this.inTown;
+    }
+
+    public boolean getIsTurn(){
+        return this.isTurn;
+    }
+
+    public Color getBootColor(){
+        return this.aBoot.getColor();
+    }
     // draw counter from face down pile
 
+<<<<<<< Updated upstream
+=======
+    public void addCard(AbstractCard c){
+        cardsInHand.add(c);
+    }
+
+    public List<AbstractCard> getCards(){
+        return cardsInHand;
+    }
+
+
+
+>>>>>>> Stashed changes
     /*
     Operation: Player::drawFaceUpToken(token: Token, tStack: TokenStack)
     Scope: Player; Game; Token;
